@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;background-color: black;
+  
+
+}
+.main-container{
+  margin-left: 20%;
+  background-color: white;
+  width: 55% ;
+  justify-content: center;
+  padding: 20px;
+}
+
+.section-one {
+  border: 2px solid white;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding: 20px;
+  /* margin-bottom: 30px;    */
+}
+
+.section-one img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.card-one-container {
+  margin: 20px;
+}
+
+.card-one-chat {
+  background-color: #202020;
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  position: relative;
+  width: fit-content;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 2px;
+}
+
+.card-one-chat .triangle {
+  position: absolute;
+  bottom: -10px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #202020;
+}
+
+.card-one-info {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+
+.card-two-container {
+  background-color: white;
+  color: #202020;
+  border: 2px solid grey;
+  border-radius: 10%;
+  padding: 20px;
+  /* margin: 20px; */
+  text-align: center;
+}
+
+.card-two-chat {
+  /* margin-bottom: 20px; */
+   margin: 10px;
+}
+
+.card-two-container p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.card-two-info {
+  display: flex;
+}
+
+
+.card-three-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 48vh;
+  padding: 20px;
+}
+
+.card-three-container img {
+  border: 2px solid #202020;
+  border-radius: 10%;
+  width: 30%;
+  margin-right: 10px;
+}
+
+.card-three-chat {
+  background-color: #202020;
+  border-radius: 5%;
+  color: white;
+  width: fit-content;
+  font-size: 1.3rem;
+  padding: 30px;
+  margin-left: 10px;
+}
+
+
+
+.section-three {
+  border: 2px solid #202020;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+}
+
+.section-three img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.carrousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.profiles {
+  display: flex;
+  align-items: center;
+}
+
+.profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 0 10px;
+  transition: all 0.3s ease;
+  opacity: 0.5;
+}
+
+.central {
+  width: 100px;
+  height: 100px;
+  opacity: 1;
+}
